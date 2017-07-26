@@ -1,7 +1,26 @@
 Bellevue, WA - 0%
+	-Bungie
+	-Expedia
+	-T-Mobile
 Houston, TX - 0%
+	-Phillips 66
+	-Sysco
+	-Baker Hughes
 Moline, IL - 3.75%
+	-Deere & Co.
 Palo Alto, CA - 13.3%
+	-Tesla
+	-Pinterest
+	-Waze
 Plano, TX - 0%
+	-AT&T
+	-FedEx
+	-Infosys
 Milwaukee, WI - 7.65%
+	-Northwestern Mutual
+	-Aurora Health Care
+	-ManpowerGroup
 Charlotte, NC - 5.75%
+	-Bank of America
+	-Bayer
+	-BB&T
