@@ -1,18 +1,70 @@
 var work = {
-	jobs: [{
-		"employer": "Infosys",
-		"title": "Associate",
-		"location": "Plano, TX",
-		"dates": "July 2017 - Present",
-		"description": "Front-End Web Developer"
-	},
-	{
-		"employer": "University of North Carolina Wilmington",
-		"title": "Technical Support Representative",
-		"location": "Wilmington",
-		"dates": "August 2016 - May 2017",
-		"description": "Provided technical support for faculty, staff, and students"
-	}],
+	jobs: {
+	"locations": 
+	[
+		{
+			"name": "Bellevue, WA",
+			"income-tax": "0%",
+			"clients": [
+				"Bungie",
+				"Expedia",
+				"T-Mobile"
+			]
+		},
+		{
+			"name": "Houston, TX",
+			"income-tax": "0%",
+			"clients": [
+				"Phillips 66",
+				"Sysco",
+				"Baker Hughes"
+			]
+		},
+		{
+			"name": "Moline, IL",
+			"income-tax": "3.75%",
+			"clients": [
+				"Deere & Co."
+			]
+		},
+		{
+		"name": "Palo Alto, CA",
+			"income-tax": "13.3%",
+			"clients": [
+				"Tesla",
+				"Pinterest",
+				"Waze"
+			]
+		},
+		{
+			"name": "Plano, TX",
+			"income-tax": "0%",
+			"clients": [
+				"AT&T",
+				"FedEx",
+				"Infosys"
+			]
+		},
+		{
+			"name": "Milwaukee, WI",
+			"income-tax": "7.65%",
+			"clients": [
+				"Northwestern Mutual",
+				"Aurora Health Care",
+				"ManpowerGroup"
+			]
+		},
+		{
+			"name": "Charlotte, NC",
+			"income-tax": "5.75%",
+			"clients": [
+				"Bank of America",
+				"Bayer",
+				"BB&T"
+			]
+		}
+	]
+}
 };
 
 

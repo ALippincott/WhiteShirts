@@ -141,8 +141,8 @@ function initializeMap() {
     // the locations array. Note that forEach is used for array iteration
     // as described in the Udacity FEND Style Guide:
     // https://udacity.github.io/frontend-nanodegree-styleguide/javascript.html#for-in-loop
-    work.jobs.forEach(function(job){
-      locations.push(job.location);
+    work.jobs.locations.forEach(function(location){
+      locations.push(location.name);
     });
 
     return locations;
@@ -176,8 +176,12 @@ function initializeMap() {
     });
 
     // hmmmm, I wonder what this is about...
-    google.maps.event.addListener(marker, 'click', function() {
-      // your code goes here!
+    google.maps.event.addListener(marker, 'mouseover', function() {
+      infoWindow.open(map, marker);
+    });
+
+    google.maps.event.addListener(marker, 'mouseout', function() {
+      infoWindow.close();
     });
 
     // this is where the pin actually gets added to the map.
