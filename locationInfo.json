@@ -1,0 +1,58 @@
+{
+	"locations": {
+		"Bellevue, WA": {
+			"income-tax": "0%",
+			"clients": [
+				"Bungie",
+				"Expedia",
+				"T-Mobile"
+			]
+		},
+		"Houston, TX": {
+			"income-tax": "0%",
+			"clients": [
+				"Phillips 66",
+				"Sysco",
+				"Baker Hughes"
+			]
+		},
+		"Moline, IL": {
+			"income-tax": "3.75%",
+			"clients": [
+				"Deere & Co."
+			]
+		},
+		"Palo Alto, CA": {
+			"income-tax": "13.3%",
+			"clients": [
+				"Tesla",
+				"Pinterest",
+				"Waze"
+			]
+		},
+		"Plano, TX": {
+			"income-tax": "0%",
+			"clients": [
+				"AT&T",
+				"FedEx",
+				"Infosys"
+			]
+		},
+		"Milwaukee, WI": {
+			"income-tax": "7.65%",
+			"clients": [
+				"Northwestern Mutual",
+				"Aurora Health Care",
+				"ManpowerGroup"
+			]
+		},
+		"Charlotte, NC": {
+			"income-tax": "5.75%",
+			"clients": [
+				"Bank of America",
+				"Bayer",
+				"BB&T"
+			]
+		}
+	}
+}
