@@ -68,5 +68,13 @@ var work = {
 };
 
 
+var i = 0;
+work.jobs.locations.forEach(function (location) {
+
+	var income = "<p>income</p>";
+	
+	$("#city > article:nth-child(" + i + ")").append(income.replace("income", location["income-tax"]));
+
+});
 
 $("#mapDiv").append(googleMap);

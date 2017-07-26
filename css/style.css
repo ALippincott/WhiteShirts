@@ -32,17 +32,21 @@ header {
  #city {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 article {
     height: 13em;
     width: 32%;
+    margin-bottom: 100px;
 }
 
 article img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: block;
 }
 
 article h2 {
@@ -53,4 +57,20 @@ article h2 {
     text-transform: uppercase;
     font-size: 2em;
     text-align: center;
+}
+
+@media screen and (min-width: 526px) and (max-width: 780px) {
+  article {
+    width: calc((100% - 10px)/2);
+  }
+  #city > article:nth-child(7) {
+    margin: 0 auto;
+  }
+}
+
+
+@media screen and (max-width: 525px) {
+  article {
+    width: 100%;
+  }
 }
